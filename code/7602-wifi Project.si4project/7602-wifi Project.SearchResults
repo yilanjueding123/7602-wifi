@@ -1,0 +1,6 @@
+---- wal_init Matches (5 in 4 files) ----
+state_startup_entry in state_startup.c (F:\work\WIFI\7602\program\application\task_state_handling\state_startup\src) : 	//wal_init(0, NULL);
+state_startup_entry in state_startup.c (F:\work\WIFI\7602\program\application\task_state_handling\state_startup\src) : 	if (wal_init(0, NULL) < 0) 
+wifi_abstraction_layer.c (F:\work\WIFI\7602\program\host) line 53 : INT32S wal_init(INT32S argc, CHAR *argv[])
+wifi_abstraction_layer.h (F:\work\WIFI\7602\program\host\include) line 27 : extern INT32S wal_init(INT32S argc, CHAR *argv[]);
+wifi_abstraction_layer_ameba.h (F:\work\WIFI\7602\program\application\task_ameba\wal\inc) line 27 : extern INT32S wal_init(INT32S argc, CHAR *argv[]);
